@@ -1,0 +1,6 @@
+[
+  { "title": "About Me", "path": "/", "icon": "👤" },
+  { "title": "Projects", "path": "/projects", "icon": "🛠️" },
+  { "title": "Gallery", "path": "/gallery", "icon": "🖼️" },
+  { "title": "Blog", "path": "/blog", "icon": "📝" }
+]

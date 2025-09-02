@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "title": "License Plate Recognition at ITS Gate",
+    "description": "A License Plate Recognition system integrated with Institut Teknologi Sepuluh Nopember gate using YOLO Object Detection and Optical Character Recognition (OCR).",
+    "technologies": ["YOLO", "OCR", "Computer Vision", "Object Detection"],
+    "link": "https://drive.google.com/file/d/1qkD6HLxgVnbAOo9ZSRzdmNNRaRazDn6g/view?usp=sharing",
+    "status": "completed",
+    "featured": true
+  },
+  {
+    "id": 2,
+    "title": "MyITS Student Connect",
+    "description": "ITS Portfolio Based Student Information System. Implemented Golang + Next.js migration from the PHP Laravel codebase.",
+    "technologies": ["Go", "Next.js", "Migration", "PHP", "Laravel"],
+    "link": "https://kemahasiswaan.its.ac.id/",
+    "status": "completed",
+    "featured": true
+  },
+  {
+    "id": 3,
+    "title": "UMKMVERSE REST API",
+    "description": "A learning business course platform dedicated for UMKM in Surabaya. The platform was built using Laravel for the API, MySQL for the database, and React for the frontend.",
+    "technologies": ["Laravel", "MySQL", "React", "REST API"],
+    "link": "https://umkmverse.vercel.app/",
+    "status": "completed",
+    "featured": true
+  },
+  {
+    "id": 4,
+    "title": "Manifest",
+    "description": "A website for a Business Plan Competition organized by the Business Management ITS department. Built using Laravel for the backend, MySQL as the database, and Tailwind CSS for styling the frontend.",
+    "technologies": ["Laravel", "MySQL", "TailwindCSS", "PHP"],
+    "link": "https://web.archive.org/web/20220823102945/https:/bpc.itsmanifest.com/login",
+    "status": "completed",
+    "featured": false
+  },
+  {
+    "id": 5,
+    "title": "Pendekno",
+    "description": "A URL shortener web application using Express.js for the backend, with the EJS template engine for rendering the user interface. Uses MongoDB as the database and styled with TailwindCSS.",
+    "technologies": ["Express.js", "EJS", "MongoDB", "TailwindCSS"],
+    "link": "https://github.com/alvingxv/pendekno",
+    "status": "completed",
+    "featured": false
+  },
+  {
+    "id": 6,
+    "title": "Countries Database",
+    "description": "A web application that provides users with information about all countries. It uses a public API to retrieve data about each country, built using SvelteKit and TailwindCSS.",
+    "technologies": ["SvelteKit", "TailwindCSS", "Public API", "JavaScript"],
+    "link": "https://countries-database.vercel.app/",
+    "status": "completed",
+    "featured": true
+  },
+  {
+    "id": 7,
+    "title": "E-Review",
+    "description": "A marketplace website built using CodeIgniter3 and Bootstrap that allows scientific journal editors to find the most suitable reviewers and enables reviewers to search for journals to review.",
+    "technologies": ["CodeIgniter3", "Bootstrap", "PHP", "MySQL"],
+    "link": "",
+    "status": "completed",
+    "featured": true
+  },
+  {
+    "id": 8,
+    "title": "E-Commerce REST API",
+    "description": "An e-commerce API built using Express.js with user authentication and MySQL as the database. It can be integrated with other group's E-Money projects.",
+    "technologies": ["Express.js", "Node.js", "MySQL", "Authentication"],
+    "link": "",
+    "status": "completed",
+    "featured": true
+  }
+]

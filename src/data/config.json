@@ -1,0 +1,19 @@
+{
+  "features": {
+    "gallery": {
+      "enabled": false,
+      "comingSoonMessage": "Photography and creative work coming soon!"
+    },
+    "blog": {
+      "enabled": false,
+      "comingSoonMessage": "Blog posts and articles coming soon!"
+    },
+    "projects": {
+      "enabled": true,
+      "comingSoonMessage": "Project showcases coming soon!"
+    }
+  },
+  "experience": {
+    "showSummary": false
+  }
+}

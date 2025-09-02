@@ -1,0 +1,26 @@
+[
+  {
+    "type": "Email",
+    "value": "alviang.work@gmail.com",
+    "link": "mailto:alviang.work@gmail.com",
+    "icon": "📧"
+  },
+  {
+    "type": "LinkedIn",
+    "value": "linkedin.com/in/alvianghifari",
+    "link": "https://www.linkedin.com/in/alvianghifari/",
+    "icon": "💼"
+  },
+  {
+    "type": "GitHub",
+    "value": "github.com/alvingxv",
+    "link": "https://github.com/alvingxv",
+    "icon": "🐱"
+  },
+  {
+    "type": "CV",
+    "value": "Download CV",
+    "link": "https://drive.google.com/file/d/1RoVHTO-PtZE1tFm97FlCyN0w4SD_2qE5/view?usp=sharing",
+    "icon": "📄"
+  }
+]

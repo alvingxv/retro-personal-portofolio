@@ -1,0 +1,11 @@
+[
+  { "name": "Go", "icon": "go", "category": "language" },
+  { "name": "JavaScript", "icon": "javascript", "category": "language" },
+  { "name": "PHP", "icon": "php", "category": "language" },
+  { "name": "React", "icon": "react", "category": "framework" },
+  { "name": "Laravel", "icon": "laravel", "category": "framework" },
+  { "name": "AWS", "icon": "AWS", "category": "cloud" },
+  { "name": "Docker", "icon": "docker", "category": "tool" },
+  { "name": "PostgreSQL", "icon": "postgresql", "category": "database" },
+  { "name": "MySQL", "icon": "mysql", "category": "database" }
+]
