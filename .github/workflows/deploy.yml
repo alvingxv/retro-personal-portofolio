@@ -24,11 +24,14 @@ jobs:
       - name: Build React app
         run: npm run build
 
+      - name: Verify build output
+        run: ls -lah build
+
       - name: Deploy to VPS
         uses: appleboy/scp-action@v0.1.7
         with:
           host: ${{ secrets.VPS_HOST }}
           username: ${{ secrets.VPS_USER }}
           key: ${{ secrets.VPS_SSH_KEY }}
-          source: "build/*"
+          source: "build/**"
           target: "/var/www/react-app"
