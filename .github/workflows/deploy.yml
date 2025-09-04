@@ -1,4 +1,4 @@
-name: Deploy React App to VPS
+name: Deploy Portfolio to VPS
 
 on:
   push:
@@ -11,21 +11,18 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v1
         with:
-          node-version: 18
+          bun-version: latest
 
       - name: Install dependencies
-        run: npm ci
+        run: bun install
 
       - name: Build React app
-        run: npm run build
-
-      - name: Verify build output
-        run: ls -lah build
+        run: bun run build
 
       - name: Deploy to VPS
         uses: appleboy/scp-action@v0.1.7
@@ -33,5 +30,6 @@ jobs:
           host: ${{ secrets.VPS_HOST }}
           username: ${{ secrets.VPS_USER }}
           key: ${{ secrets.VPS_SSH_KEY }}
-          source: "build/**"
-          target: "/var/www/react-app"
+          source: "dist/*"
+          target: "/var/www/portfolio"
+          strip_components: 1
