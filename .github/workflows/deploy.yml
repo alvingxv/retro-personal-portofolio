@@ -1,4 +1,4 @@
-name: Deploy Portfolio to VPS
+name: Deploy to GitHub Pages
 
 on:
   push:
@@ -6,9 +6,8 @@ on:
       - main
 
 jobs:
-  build-and-deploy:
+  build-deploy:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -21,15 +20,12 @@ jobs:
       - name: Install dependencies
         run: bun install
 
-      - name: Build React app
+      - name: Build project
         run: bun run build
 
-      - name: Deploy to VPS
-        uses: burnett01/rsync-deployments@6.0.0
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
         with:
-          switches: -avzr --delete
-          path: dist/
-          remote_path: /var/www/portfolio/
-          remote_host: ${{ secrets.VPS_HOST }}
-          remote_user: ${{ secrets.VPS_USER }}
-          remote_key: ${{ secrets.VPS_SSH_KEY }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          cname: alvian.ghifar.id
