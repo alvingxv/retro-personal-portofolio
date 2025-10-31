@@ -14,6 +14,6 @@
     }
   },
   "experience": {
-    "showSummary": true
+    "showSummary": false
   }
 }

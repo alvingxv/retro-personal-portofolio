@@ -1,15 +1,24 @@
 [
   {
     "id": 1,
+    "company": "PT Super Bank Indonesia",
+    "position": "Backend Developer",
+    "location": "Jakarta, Indonesia",
+    "startDate": "2025-09",
+    "endDate": "Present",
+    "summary": "WIP"
+  },
+  {
+    "id": 2,
     "company": "PT. Bank Rakyat Indonesia",
     "position": "Backend Developer",
     "location": "Jakarta, Indonesia",
     "startDate": "2024-03",
-    "endDate": "Present",
+    "endDate": "2025-09",
     "summary": "Assigned at BRImo Team, developed and maintained over 10 microservices using Golang, integrating Elasticsearch for efficient logging, Kafka for real-time data processing, and Redis for caching. Created multiple flagship features, including an NFC payment system, QRIS source of fund and a loan application process, significantly enhancing app functionality and user experience."
   },
   {
-    "id": 2,
+    "id": 3,
     "company": "Direktorat Pengembangan Teknologi dan Sistem Informasi ITS",
     "position": "Backend Developer Intern",
     "location": "Surabaya, Indonesia",
@@ -18,7 +27,7 @@
     "summary": "Wrote over 28,000 lines of code with over 400 commits. Played a pivotal role in refactoring the MyITS StudentConnect web application, transitioning it from PHP Laravel to Golang for the backend while seamlessly integrating it with Next.js for the frontend. Optimized server-side logic and API communication, ensuring a smooth and efficient user experience."
   },
   {
-    "id": 3,
+    "id": 4,
     "company": "Departemen Teknologi Informasi ITS",
     "position": "Assistant Lecturer",
     "location": "Surabaya, Indonesia",
@@ -27,7 +36,7 @@
     "summary": "Assistant Lecturer for Integration Programming and Web Programming courses. Assisted with teaching, grading, and student support. Helped develop course materials and conducted lectures. Gained deep understanding of web programming and contributed to the success of the courses."
   },
   {
-    "id": 4,
+    "id": 5,
     "company": "Society of Renewable Energy ITS",
     "position": "Backend Developer",
     "location": "Surabaya, Indonesia",
@@ -36,7 +45,7 @@
     "summary": "Designed and implemented server-side logic for web applications. Worked closely with frontend developers to integrate the backend with the user interface, ensuring a seamless and effective user experience. Troubleshot and debugged issues, ensuring that the backend functions smoothly and efficiently."
   },
   {
-    "id": 5,
+    "id": 6,
     "company": "Social Economic Accelerator Lab",
     "position": "Backend Developer Intern",
     "location": "Singosari, Indonesia",
